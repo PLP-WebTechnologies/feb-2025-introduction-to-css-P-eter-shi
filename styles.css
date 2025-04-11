@@ -1,0 +1,57 @@
+table th td {
+    padding: 10px;
+    border:1px solid black;
+    border-collapse: collapse;
+}
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #fff;
+    box-shadow: 3px 3px 5px ;
+    border-radius: 5px;
+    margin-left:25%;
+}
+tr td {
+    border:1px solid black;
+}
+
+h3 {
+    text-align: center;;
+}
+ body{
+    background-image: url("https://img.freepik.com/free-vector/blue-white-gradient-abstract-background_53876-60241.jpg") no-repeat center fixed;
+    background-size:cover;
+    animation: zoom-in 7s infinite alternate;
+ }
+ @keyframes zoom-in {
+    0% {
+        transform:scale(1);
+    }
+    100% {
+        transform: scale(1.05);
+    }
+    from {
+        background-image: url('https://img.freepik.com/free-vector/blue-white-gradient-abstract-background_53876-60241.jpg');
+
+    }
+    
+ }
+ img {
+    margin:auto;
+    display:block;
+    border-radius: 8px;
+    box-shadow: 3px 3px 5px;
+ }
+ /*text styling*/
+ .text{
+    text-align: center;
+    font-size:50px;
+ }
+
+ #finish{
+    font-size: 30px;
+    text-align: center;
+ }
+ 
+
